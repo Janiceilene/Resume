@@ -1,0 +1,85 @@
+body {
+  background-color: #f4fffb;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: narrow;
+}
+
+.head{
+  list-style-type: none;
+  text-align: center;
+  padding: .5em;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 2em;
+}
+
+a:link{
+  color:deeppink;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.container{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 200%
+}
+
+.email{
+  font-weight:normal;
+}
+
+h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+}
+
+.center{
+  flex: 1;
+  text-align: center;
+}
+
+.left{
+  flex: 1;
+  text-align: left;
+}
+
+.right{
+  flex: 1;
+  text-align: right;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.nowrap{
+  white-space: nowrap;
+}
+
+p{
+  text-align: justify;
+  padding: 0px 50px;
+}
+
+section{
+  padding: 10px 50px;
+}
+
+.items{
+   display: flex;
+  justify-content: space-around;
+  
+}
